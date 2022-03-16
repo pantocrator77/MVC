@@ -1,5 +1,5 @@
 <?php
-// ** MySQL settings ** //
+// ** MySQL settings ** //////
 /** The name of the database */
 define('DB_NAME', 'ex_mvc');
  
