@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Styles\intro.css">
+        <link rel="stylesheet" href="Styles\findOne.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class = 'container'>
+            <header>
+                    <p>ToDoApp</p> <!-- delete 'Welcome to' in other pages -->
+            </header>
+            <nav class="menu">
+                    <a href="../TodoApp/create.html">Create</a> 
+                    <a href="../TodoApp/findOne.html">Find one</a>
+                    <a href="../TodoApp/showAll.html">Show all</a>  
+            </nav>
+            <main class="tabs">
+                <section>
+
+                    <div class="search-container">
+                    <form action="/action_page.php">
+                        <input type="text" placeholder="Search.. for task" name="search">
+                        <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                      </form>
+                      <form action="/action_page.php">
+                        <input type="text" placeholder="Search.. for name" name="search">
+                        <button type="submit" class="btn"><i class="fa fa-search"></i></button>
+                      </form>
+                    </div>
+
+                    <table> 
+                        <tr>
+                            <th>Name</th>
+                            <th style="width:55%">Description</th>
+                            <th>Start</th>
+                            <th>Status</th>
+                            <th>Finish</th> 
+                        </tr>
+                        <tr>
+                            <td>Some inf</td>
+                            <td>Some inf</td>
+                            <td>Some inf</td>
+                            <td>Some inf</td>
+                            <td>Some inf</td>                            
+                        </tr>                         
+                    </table> 
+                        <button class="btn"><i class="fa fa-refresh"></i> Refresh</button>                      
+                        <button class="btn"><i class="fa fa-edit"></i> Edit</button>
+                        <button class="btn"><i class="fa fa-trash"></i> Trash</button>
+                </section>
+            </main>
+            <footer>
+                <p>
+                    &#169; 2022 ToDoApp, Developers Team.
+                </p>    
+            </footer>
+        </div>
+    </body>
+    
+</html>
+

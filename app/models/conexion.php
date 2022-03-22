@@ -1,7 +1,8 @@
 <?php   
     require ('/config/db_connect_data.php');
-    private $con;
+    
     class Connect{
+        private $con;
         public function __construct(){
                 $this->Connect = new mysqli(DB_NAME, DB_USER, DB_PASSWORD, DB_HOST); 
         }    
@@ -17,7 +18,7 @@
         return $retorno;
         }
         //CRUD
-
+        
 
 
 ?>
